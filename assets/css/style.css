@@ -1,0 +1,305 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+}
+
+.content {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cta {
+    height: 50px;
+    border-radius: 24.5px;
+    background: #171100;
+    width: 118px;
+    color: #fff;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.75;
+    border: none;
+    cursor: pointer;
+}
+
+.row {
+    display: flex;
+}
+
+/** Header **/
+.header {
+    background: #fffcf4;
+}
+
+.content {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    padding-top: 36px;
+}
+
+.nav-info {
+    margin-left: auto;
+    display: flex;
+}
+
+.nav-info button {
+    width: 144px;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list li {
+    margin-right: 42px;
+    height: 28px;
+    position: relative;
+}
+
+.nav-list li:first-child::before {
+    position: absolute;
+    content: "";
+    width: 12px;
+    height: 2px;
+    border-radius: 1px;
+    background: #171100;
+    bottom: 0;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: #5f5b53;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.75;
+}
+
+.nav-list li:first-child a {
+    color: #171100;
+    font-weight: 600;
+}
+
+/** Hero **/
+.hero {
+    margin-top: 64px;
+    display: flex;
+}
+
+.hero-img,
+.hero-desc {
+    flex: 1;
+}
+
+.hero-img .main-img {
+    width: 470px;
+    height: 685px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.hero-desc {
+    margin-top: 64px;
+    margin-left: 130px;
+}
+
+.above-info h1 {
+    color: #171100;
+    font-family: Sen;
+    font-size: 5.8rem;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: -1.16px;
+}
+
+.above-info p {
+    margin-top: 20px;
+    color: #5f5b53;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.66;
+}
+
+.cta-form {
+    display: flex;
+    margin-top: 38px;
+    align-items: center;
+}
+
+.cta-form button {
+    background-color: #ffb900;
+    width: 180px;
+    height: 64px;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.66;
+    border-radius: 32px;
+}
+
+.cta-form img {
+    margin-left: 28px;
+    transform: translatey(12%);
+}
+
+.cta-form p {
+    margin-left: 14px;
+    color: #171100;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.66;
+}
+
+.desc-stat {
+    margin-top: 48px;
+}
+
+.desc-stat > p {
+    color: #5f5b53;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.66;
+}
+
+.sub-stat {
+    display: flex;
+    align-items: baseline;
+}
+
+.sub-stat {
+    margin-top: 8px;
+}
+
+.sub-stat + .sub-stat {
+    margin-left: 28px;
+}
+
+.sub-stat .sub1 {
+    color: #171100;
+    font-family: Sen;
+    font-size: 4.4rem;
+    font-weight: 700;
+    line-height: 1.22;
+}
+
+.sub-stat .sub2 {
+    color: #5f5b53;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/** Courses **/
+.courses {
+    margin: 200px 0;
+}
+
+.courses-title {
+    display: flex;
+    align-items: center;
+}
+
+.courses-info h2 {
+    color: #171100;
+    font-family: Sen;
+    font-size: 3.8rem;
+    font-weight: 700;
+    line-height: 1.26;
+    letter-spacing: -0.76px;
+}
+
+.courses-info p {
+    width: 458px;
+    margin-top: 16px;
+    color: #5f5b53;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.66;
+}
+
+.courses-img {
+    margin-left: auto;
+}
+
+.courses-list {
+    display: flex;
+    gap: 30px;
+}
+
+.courses-items {
+    margin-top: 55px;
+    flex: 1;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 0px 18px 36px 0px rgba(0, 0, 0, 0.05);
+    width: 370px;
+    height: 466px;
+}
+
+.courses-items .img {
+    width: 370px;
+    height: 278px;
+    object-fit: cover;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.courses-items h3 {
+    color: #171100;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.66; /* 166.667% */
+}
+
+.courses-items .desc {
+    color: #5f5b53;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.85;
+    width: 326px;
+}
+
+.courses-items .row img {
+    margin-left: auto;
+}
+
+.courses-text {
+    padding: 16px 22px 22px;
+}
+
+.courses-end {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+
+.courses-end p {
+    color: #171100;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.66;
+}
+
+.courses-end button {
+    width: 118px;
+}
+
+.courses-items:first-child button {
+    background-color: #ffb900;
+}
